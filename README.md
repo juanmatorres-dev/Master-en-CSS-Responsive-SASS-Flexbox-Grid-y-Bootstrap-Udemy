@@ -9,5 +9,5 @@ Nota : La numeración corresponde a la del curso .
 
 * 11.Ejercicio completo para practicar con HTML
   * [Ver código fuente](https://github.com/juanmatorres-dev/Master-en-CSS-Responsive-SASS-Flexbox-Grid-y-Bootstrap-Udemy/tree/main/11.%20Ejercicio%20completo%20para%20practicar%20con%20HTML)
-  * [Ver en vivo](https://juanmatorres-dev.github.io/Master-en-CSS-Responsive-SASS-Flexbox-Grid-y-Bootstrap-Udemy/11.%20Ejercicio%20completo%20para%20practicar%20con%20HTML/index.html)
+  * <a href="https://juanmatorres-dev.github.io/Master-en-CSS-Responsive-SASS-Flexbox-Grid-y-Bootstrap-Udemy/11.%20Ejercicio%20completo%20para%20practicar%20con%20HTML/index.html" target="_blank">Ver en vivo</a>
 
