@@ -127,5 +127,5 @@ input[type="submit"] {
 }
 
 h1 {
-    background: purple !important;
+    background: purple !important; /* !important Machaca todas las reglas anteriores ( máxima importancia ) */
 }
