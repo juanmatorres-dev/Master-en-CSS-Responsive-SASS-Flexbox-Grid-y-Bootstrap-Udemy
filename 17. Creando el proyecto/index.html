@@ -8,18 +8,25 @@
     <link rel="stylesheet" type="text/css" href="styles.css"/>
 </head>
 <body>
-    <h1>Máster en CSS con Víctor Robles Web</h1>
+    <h1 id="titulo">Máster en CSS con Víctor Robles Web</h1>
 
-    <ul>
+    <ul id="menu">
         <li><a href="#">Inicio</a></li>
-        <li><a href="#">Temario</a></li>
+        <li>
+            <a href="#">Temario</a>
+            <ul>
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">LESS</a></li>
+            </ul>
+        </li>
         <li><a href="#">Reseñas</a></li>
         <li><a href="#">Contacta</a></li>
     </ul>
 
     <div id="descripcion">
         <h2>Descripción del curso</h2>
-        <p>
+        <p class="parrafo parrafo1">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non leo ac ipsum blandit malesuada. Proin turpis lectus, ornare vitae lorem sed, vestibulum pharetra ante. Vestibulum ipsum lectus, ultricies non laoreet a, feugiat eu felis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus at rutrum lacus. Curabitur quis fermentum libero. Quisque ornare congue augue at consequat. Etiam vitae neque posuere, interdum augue vel, vulputate metus. Duis efficitur, eros non hendrerit consectetur, neque turpis scelerisque purus, ullamcorper blandit mi velit ut eros. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
         </p>
 
@@ -27,9 +34,24 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non leo ac ipsum blandit malesuada. Proin turpis lectus, ornare vitae lorem sed, vestibulum pharetra ante. Vestibulum ipsum lectus, ultricies non laoreet a, feugiat eu felis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus at rutrum lacus. Curabitur quis fermentum libero. Quisque ornare congue augue at consequat. Etiam vitae neque posuere, interdum augue vel, vulputate metus. Duis efficitur, eros non hendrerit consectetur, neque turpis scelerisque purus, ullamcorper blandit mi velit ut eros. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
         </p>
 
-        <p>
+        <p class="parrafo parrafo3">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non leo ac ipsum blandit malesuada. Proin turpis lectus, ornare vitae lorem sed, vestibulum pharetra ante. Vestibulum ipsum lectus, ultricies non laoreet a, feugiat eu felis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus at rutrum lacus. Curabitur quis fermentum libero. Quisque ornare congue augue at consequat. Etiam vitae neque posuere, interdum augue vel, vulputate metus. Duis efficitur, eros non hendrerit consectetur, neque turpis scelerisque purus, ullamcorper blandit mi velit ut eros. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
         </p>
+    </div>
+
+    <div id="usuario">
+        <form>
+            <label for="nombre">Nombre : </label>
+            <input type="text" name="nombre"/>
+            <label for="apellidos">Apellidos : </label>
+            <input type="text" name="apellidos"/>
+            <input type="submit" value="Enviar"/>
+            
+        </form>
+    </div>
+
+    <div id="saludo">
+        <h1>Hola soy Juan Manuel</h1>
     </div>
 
     <footer>
