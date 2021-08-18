@@ -1,0 +1,23 @@
+body {
+    background-color: #ccc;
+    background-image: url(img/paisaje.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    background-attachment: fixed; /* Hace que el fondo no se mueva al hacer scroll */
+    background-position: right bottom;
+}
+
+#caja {
+    border: 5px solid black;
+    padding: 10px;
+    background-color: rgb(34, 148, 194);
+    color: white;
+}
+
+h2 {
+    border: 5px solid black;
+    background-color: rgb(34, 148, 194);
+    color: white;
+    padding: 20px;
+}
