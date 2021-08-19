@@ -1,11 +1,19 @@
 body {
     background-color: #ccc;
+    /*
     background-image: url(img/paisaje.jpeg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     color: white;
     background-attachment: fixed; /* Hace que el fondo no se mueva al hacer scroll */
+    /*
     background-position: right bottom;
+    */
+    text-indent: 15px;
+    /*
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    */
 }
 
 #caja {
@@ -13,6 +21,11 @@ body {
     padding: 10px;
     background-color: rgb(34, 148, 194);
     color: white;
+    text-align: center;
+    line-height: 50px; /* Altura de línea */
+    text-transform: uppercase;
+    text-decoration: line-through;
+    vertical-align: top;
 }
 
 h2 {
