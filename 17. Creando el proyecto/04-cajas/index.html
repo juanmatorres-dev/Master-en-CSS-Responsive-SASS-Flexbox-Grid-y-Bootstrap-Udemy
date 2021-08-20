@@ -10,13 +10,24 @@
 <body>
     <h1>Cajas en CSS con Víctor Robles Web</h1>
     
-    <div id="caja1">
-        <p>Contenido de la caja 1</p>
-    </div>
+    <!-- Elementos flotados -->
+    <section id="cajas">
+        <div class="caja">
+            <p>Contenido de la caja 1</p>
+        </div>
 
-    <section id="caja2">
-        <p>Contenido de la caja 2</p>
+        <div class="caja">
+            <p>Contenido de la caja 2</p>
+        </div>
     </section>
+
+    <!-- LIMPIAR FLOTADOS -->
+    <div class="clearfix"></div>
+
+
+    <!-- Elementos no flotados que se mantienen abajo -->
+    <h2>Contenidos después de las cajas posicionadas</h2>
+    <p>Texto de prueba</p>
 
 </body>
 </html>

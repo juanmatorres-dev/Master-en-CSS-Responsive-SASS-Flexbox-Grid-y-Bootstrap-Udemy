@@ -3,8 +3,13 @@
     padding: 0px;
 }
 
-#caja1 ,
-#caja2 {
+body {
+    padding: 40px;
+}
+
+.caja {
+    display: block; /* Cuando flotamos elementos debe de ser siempre display: block; */
+
     border: 3px solid black;
     background-color: lightblue;
     width: 250px;
@@ -16,9 +21,11 @@
     margin-right: 85px;
     padding: 20px;
     padding-bottom: 50px;
+
+    float: left;
 }
 
-p {
+.caja p {
     font-weight: bold;
     text-align: center;
     font-size: 20px;
@@ -26,4 +33,9 @@ p {
     line-height: 250px;
 
     /*text-decoration: overline underline;*/
+}
+
+.clearfix {
+    float: none; /* Hacemos que no se floten los elementos */
+    clear: both; /* Limpiamos todos los flotados ( izquierda y derecha ) */
 }
