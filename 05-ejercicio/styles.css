@@ -2,7 +2,7 @@
 1. Crear un Documento HTML y vincularlo con un CSS 
 2. Crear una estructura HTML que cuente con un CONTENEDOR GENERAL, CABECERA, MENU, BARRA LATERAL, SECCION DE CONTENIDO PRINCIPAL, ELEMENTOS DENTRO DEL CONTENEDOR PRINCIPAL Y FOOTER.
 3. Todo el contenido debe estar dentro del contenedor general y su ancho será de 1200px y estar centrado.
-4. Header debe acupar el 100% de ancho y tener un texto grande centrado.
+4. Header debe ocupar el 100% de ancho y tener un texto grande centrado.
 5. Menu debe tener los elementos uno al lado del otro.
 6. El contenido principal debe tener un ancho del 70%.
 7. El contenido dentro del contenedor principal debe ser una cuadricula con 4 lineas de 2 cajas.
@@ -14,5 +14,48 @@
     margin: 0px;
     padding: 0px;
     text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+#contenedorGeneral {
+    border: 1px solid black;
+    width: 1200px;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+#cabecera {
+    /*border: 1px solid black;*/
+    width: 100%;
+    height: 100px;
+    background-color: rgba(101, 101, 228, 0.767);
+    text-align: center;
+    /*font-size: 25px;*/
+    color: white;
+    line-height: 100px; /* Centra el texto verticalmente */
+}
+
+
+#menu {
+    background-color: #eee;
+
+}
+
+#menu ul li{
+    display: inline-block;
+    /*margin-right: 50px;*/
+    border-right: 1px solid #ccc;
+    /*border: 1px solid black;*/
+}
+
+#menu ul li a {
+    padding: 12px;
+    color: rgb(61, 94, 202);
+    /*border: 1px solid black;*/
+    display: block;
+}
+
+#menu ul li a:hover , #menu ul li:hover {
+    color: white;
+    background-color: rgba(101, 101, 228, 0.767);
+}
