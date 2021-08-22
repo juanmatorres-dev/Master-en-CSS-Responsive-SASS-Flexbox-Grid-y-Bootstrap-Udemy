@@ -18,7 +18,7 @@
 }
 
 #contenedorGeneral {
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     width: 1200px;
     margin: 0px auto;
     margin-top: 20px;
@@ -91,4 +91,54 @@
 
 #menu ul li:hover a {
     color: white;
+}
+
+
+
+
+#contenido {
+    width: 70%;
+    /*background-color: rgba(155, 205, 209, 0.767);*/
+    float: left;
+}
+
+#lateral {
+    width: 30%;
+    background-color: rgba(219, 219, 223, 0.767);
+    float: left;
+    text-align: center;
+    min-height: 500px;
+}
+
+
+
+#contenido .caja {
+    border: 1px solid black;
+    float: left;
+    width: 40%;
+    height: 350px;
+    margin: 41px;
+}
+
+#contenido .caja h2 {
+    text-align: center;
+    line-height: 350px;
+}
+
+#contenido > h1 {
+    border-bottom: 2px solid rgb(110, 101, 101);
+    text-align: center;
+    padding: 25px;
+    color: #444;
+}
+
+
+footer {
+    width: 100%;
+    background-color: #eee;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    color: #444;
+    border-top: 1px solid #ccc;
 }
