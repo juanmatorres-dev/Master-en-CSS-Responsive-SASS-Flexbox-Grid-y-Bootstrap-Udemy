@@ -1,6 +1,6 @@
 /* 
 1. Crear un Documento HTML y vincularlo con un CSS 
-2. Crear una estructura HTML que cuente con un CONTENEDOR GENERAL, CABECERA, MENU, BARRA LATERAL, SECCION DE CONTENIDO PRINCIPAL, ELEMENTOS DENTRO DEL CONTENEDOR PRINCIPAL Y FOOTER.
+2. Crear una estructura HTML que cuente con un CONTENEDOR GENERAL, CABECERA, MENU, BARRA LATERAL, SECCIÓN DE CONTENIDO PRINCIPAL, ELEMENTOS DENTRO DEL CONTENEDOR PRINCIPAL Y FOOTER.
 3. Todo el contenido debe estar dentro del contenedor general y su ancho será de 1200px y estar centrado.
 4. Header debe ocupar el 100% de ancho y tener un texto grande centrado.
 5. Menu debe tener los elementos uno al lado del otro.
@@ -35,27 +35,60 @@
     line-height: 100px; /* Centra el texto verticalmente */
 }
 
+/* ############## FORMA CON DISPLAY-BLOCK ############## */
+/* Nota: Con esta forma queda un espacio entre los elementos del menú que no se pueden quitar */
 
+/*
 #menu {
     background-color: #eee;
-
 }
 
 #menu ul li{
     display: inline-block;
-    /*margin-right: 50px;*/
     border-right: 1px solid #ccc;
-    /*border: 1px solid black;*/
 }
 
 #menu ul li a {
     padding: 12px;
     color: rgb(61, 94, 202);
-    /*border: 1px solid black;*/
     display: block;
 }
 
 #menu ul li a:hover , #menu ul li:hover {
     color: white;
     background-color: rgba(101, 101, 228, 0.767);
+}
+
+*/
+
+
+/* ############## FORMA CON FLOAT ############## */
+
+#menu ul li {
+    display: block;
+    float: left;
+    border-right: 1px solid #ccc;
+}
+
+.clearFix {
+    float: none;
+    clear: both;
+}
+
+#menu {
+    background-color: #eee;
+}
+
+#menu ul li a {
+    color: rgb(61, 94, 202);
+    display: block;
+    padding: 12px;
+}
+
+#menu ul li:hover {
+    background-color: rgb(61, 94, 202);
+}
+
+#menu ul li:hover a {
+    color: white;
 }
