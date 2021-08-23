@@ -108,10 +108,20 @@
     float: left;
     text-align: center;
     min-height: 500px;
+    max-height: 650px;
+    overflow-y: scroll;
 }
 
 #lateral .caja h2 {
     margin-top: 25px;
+}
+
+#lateral .caja p {
+    margin-top: 25px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
 }
 
 
