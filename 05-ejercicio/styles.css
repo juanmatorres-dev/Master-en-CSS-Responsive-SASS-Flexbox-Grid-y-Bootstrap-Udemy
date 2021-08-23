@@ -125,7 +125,12 @@
     margin: 41px;
     color: #444;
     text-transform: uppercase;
+    
     box-shadow: 5px 5px 10px gray; /* Sombra ( exterior ) para la caja ( los parámetros son los mismo que la sombra de texto ) */
+    
+    border-radius: 50px; /* Bordes redondeados ( aplica la medida a todos los bordes igual )  */
+    border-radius: 50px 20px 10px 90px; /* Bordes redondeados ( arriba-izquierda , arriba-derecha , abajo-derecha, abajo-izquierda ) */
+    border-radius: 200px; /* Con una medida muy grande podemos hacer un círculo ( debe ser un cuadrado perfecto , mismo ancho y alto ) */
 }
 
 .sombra-interior {
