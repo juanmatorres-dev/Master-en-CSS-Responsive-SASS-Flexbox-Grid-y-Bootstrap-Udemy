@@ -127,8 +127,10 @@ body {
     z-index: 1;
 }
 
+
 #nav > ul > li:hover > ul {
     display: block;
+    
 }
 
 #nav > ul > li:hover > ul > li {
