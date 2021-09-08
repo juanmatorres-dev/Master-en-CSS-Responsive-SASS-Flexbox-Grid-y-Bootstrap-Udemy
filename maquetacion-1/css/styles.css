@@ -18,6 +18,18 @@
     font-style: normal;
 }
 
+/* https://www.fontsquirrel.com/fonts/web-symbols */
+@font-face { 
+    font-family: "icons";
+    src: url("fonts/websymbols-regular-webfont.svg#WebSymbolsRegular") format("svg"),
+         url("fonts/websymbols-regular-webfont.eot");
+    src: url("fonts/websymbols-regular-webfont.eot?#iefix") format("embedded-opentype"),
+        url("fonts/websymbols-regular-webfont.woff") format("woff"),
+        url("fonts/websymbols-regular-webfont.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 /* ESTILOS GENERALES */
 
@@ -49,6 +61,17 @@ a:hover {
 
 .blue {
     color: #0c73f2 !important;
+}
+
+.orange {
+    color: #d69d2a !important;
+}
+
+.icon {
+    font-family: "icons";
+    float: left;
+    margin-right: 5px;
+    margin-top: -2px;
 }
 
 /* FORMULARIOS */
@@ -359,6 +382,7 @@ button:active {
     font-weight: normal;
     letter-spacing: 1px;
     text-align: center;
+    margin-top: -20px;
     padding-top: 20px;
     padding-bottom: 10px;
     border-bottom: 1px solid #ccc;
@@ -384,4 +408,15 @@ button:active {
 #sections .date {
     color: gray;
     font-size: 14px;
+}
+
+#sections .stickerOne,
+#sections .stickerTwo {
+    position: absolute;
+    margin-top: -38px;
+    z-index: 0;
+}
+
+#sections .stickerTwo {
+    margin-left: 860px;
 }
