@@ -93,6 +93,7 @@ select {
     padding-top: 2px;
     padding-bottom: 2px;
     color: gray;
+    outline: 0px; /* Para quitar el contorno por defecto */
     transition: all 300ms;
 }
 
