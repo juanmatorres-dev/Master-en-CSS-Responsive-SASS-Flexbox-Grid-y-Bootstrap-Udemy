@@ -65,3 +65,55 @@ footer {
     color: rgba(3, 2, 2, 0.863);
     background-color: coral;
 }
+
+
+
+/* RESPONSIVE */
+
+/* Desde la anchura 0px hasta la anchura 888px de pantalla */
+
+@media (max-width: 888px) {
+    /* Se ejecutan estos estilos */
+
+    #articles article {
+        width: 40%;
+        background-color: red;
+    }
+
+}
+
+@media (max-width: 653px) {
+    /* Se ejecutan estos estilos */
+
+    #container {
+        overflow: hidden;
+    }
+
+    aside {
+        float: none;
+        min-height: auto;
+        line-height: 20px;
+        width: 93.3%;
+        padding: 15px;
+    }
+
+    #articles {
+        width: 100%;
+    }
+
+    #articles article {
+        width: 90%;
+        background-color: blue;
+    }
+
+}
+
+
+@media (max-width: 544px) {
+    /* Se ejecutan estos estilos */
+
+    body {
+        background-color: lightsalmon;
+    }
+
+}
